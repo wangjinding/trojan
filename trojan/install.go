@@ -96,12 +96,7 @@ func InstallTls() {
 				fmt.Println("域名有误,请重新输入")
 				continue
 			}
-			checkIp := false
-			for _, ip := range ipList {
-				if localIP == ip.String() {
-					checkIp = true
-				}
-			}
+			checkIp := true
 			if checkIp {
 				break
 			} else {
