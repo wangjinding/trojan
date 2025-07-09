@@ -13,7 +13,7 @@ download_url="https://github.com/Jrohy/trojan/releases/download/"
 
 version_check="https://api.github.com/repos/Jrohy/trojan/releases/latest"
 
-service_url="https://raw.githubusercontent.com/Jrohy/trojan/master/asset/trojan-web.service"
+service_url="https://raw.githubusercontent.com/wangjinding/trojan/refs/heads/master/trojan-web.service"
 
 [[ -e /var/lib/trojan-manager ]] && update=1
 
